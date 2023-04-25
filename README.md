@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Project Title: Ecommerce Marketplace
+
+Project Description: An ecommerce store for photographers and hobbyists alike. Users can browse various photographers products.
+
+Table of Contents:
+
+How to intall and run the project:
+
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
