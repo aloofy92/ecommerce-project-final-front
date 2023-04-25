@@ -1,0 +1,14 @@
+
+    .custom-search {
+        display: inline-block;
+        margin: 0 auto;
+        /* your custom search bar styling */
+      }
+
+   
+      .nav-text {
+        font-size: 20px;
+        color: rgb(255, 221, 0);
+        display: 'grid';
+        place-items: 'start';
+      }
