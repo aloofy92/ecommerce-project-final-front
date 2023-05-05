@@ -16,16 +16,25 @@ export const CartInventory = (props) => {
       <img src={productImage} />
 
       <div className="item-description">
+
         <p>
           <b>{productName}</b>
+
         </p>
+
         <p> Price: ${price}</p>
+
         <div className="countHandler">
+
           <button onClick={() => removeFromCart(id)}> - </button>
+
           <input
+          
             value={cartItems[id]}
+
             onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
           />
+
           <button onClick={() => addToCart(id)}> + </button>
         </div>
       </div>

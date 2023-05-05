@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import { ShopContext } from "../../assess/shop-assess";
 
-export const Product = (props) => {
+export const Product2 = (props) => {
 
   const { id, productName, price, productImage } = props.data;
 
@@ -12,7 +12,7 @@ export const Product = (props) => {
 
   return (
 
-    <div className="product">
+    <div className="product2">
 
       <img  variant ="top"src={productImage}  height="280px"alt="prod-img"
       

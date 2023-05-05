@@ -29,7 +29,7 @@ export const Cart = () => {
 
       </div>
 
-      <div className="cart">
+      <div className="cart-product" >
 
         {INVENTORY.map((product) => {
 
@@ -38,6 +38,7 @@ export const Cart = () => {
             return <CartInventory data={product} />;
           }
         })}
+
       </div>
 
       {totalAmount > 0 ? (

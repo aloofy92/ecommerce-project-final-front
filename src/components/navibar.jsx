@@ -4,7 +4,9 @@ import "./navibar.css";
 
 import { Link } from "react-router-dom";
 
-import { ShoppingCart } from "phosphor-react";
+import { ShoppingCart, Camera } from "phosphor-react";
+
+
 
 import Searchbar from "./searchbar";
 
@@ -24,7 +26,7 @@ export const Navibar = () => {
   
   <div>
 
-    <p className="nav-text" > Photographer Store </p> </div>
+    <p className="nav-text"> Behind The Lens </p> </div>
     
     <Searchbar className="custom-search" />
 <div>
